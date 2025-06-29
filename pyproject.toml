@@ -9,6 +9,7 @@ dependencies = [
     "bs4>=0.0.2",
     "editdistance>=0.8.1",
     "gensim>=4.3.3",
+    "jax>=0.5.3",
     "keras>=3.10.0",
     "nltk>=3.9.1",
     "tensorflow>=2.18.1",
