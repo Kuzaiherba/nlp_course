@@ -9,7 +9,7 @@
 > **Note:** Instructions below assume [`uv`](https://docs.astral.sh/uv/) is installed.
 
 ```bash
-uv sync --frozen --groups ipynb
+uv sync --frozen
 ```
 
 This will install all the necessary dependencies for the course and create a virtual environment in `.venv` directory
