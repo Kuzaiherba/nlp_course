@@ -3,7 +3,7 @@ name = "nlp-course"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "==3.12.*"
 dependencies = [
     "bokeh>=3.7.3",
     "bs4>=0.0.2",
@@ -11,8 +11,11 @@ dependencies = [
     "gensim>=4.3.3",
     "jax>=0.5.3",
     "keras>=3.10.0",
+    "matplotlib>=3.10.3",
     "nltk>=3.9.1",
+    "notebook>=7.4.3",
     "tensorflow>=2.18.1",
+    "torch>=2.7.1",
     "tqdm>=4.67.1",
     "umap-learn>=0.5.7",
 ]
@@ -22,3 +25,6 @@ ipynb = [
     "jupyter>=1.1.1",
     "notebook>=7.4.3",
 ]
+
+[tool.uv]
+default-groups = ["ipynb"]
