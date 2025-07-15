@@ -4,6 +4,16 @@
 * Any technical issues, ideas, bugs in course materials, contribution ideas - add an [issue](https://github.com/yandexdataschool/nlp_course/issues)
 * Installing libraries and troubleshooting: [this thread](https://github.com/yandexdataschool/nlp_course/issues/1).
 
+# Running locally
+
+> **Note:** Instructions below assume [`uv`](https://docs.astral.sh/uv/) is installed.
+
+```bash
+uv sync --frozen --groups ipynb
+```
+
+This will install all the necessary dependencies for the course and create a virtual environment in `.venv` directory
+that can be used to run the notebooks.
 
 # Syllabus
 - [__week01__](./week01_embeddings) __Word Embeddings__
